@@ -9,7 +9,7 @@ body {
 }
 
 .cover {
-    background-image: url('../assets/n2.jpg');
+    background-image: url('./assets/n2.jpg');
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
@@ -27,12 +27,9 @@ body {
     width: 30%;
     background: rgba(68, 67, 67, 0.476);
     backdrop-filter: blur(5px);
-    /* width: 30.55%; */
     padding: 10px;
     height: 450px;
-    /* margin-top: 2rem; */
     margin-left: 35.55%;
-    /* margin-right: 35.55%; */
     text-align: center;
 }
 
@@ -193,7 +190,6 @@ body {
 
 .labels {
     display: inline;
-    /* margin-left: -80px; */
     margin-right: 10px;
     margin-bottom: 30px;
     font-size: 20px;
@@ -208,7 +204,6 @@ body {
 /* check-done btn */
 
 .check-done {
-    /* display: inline; */
     text-align: center;
 }
 
@@ -305,12 +300,9 @@ body {
 }
 
 .row {
-    /* align-self: start; */
     float: left;
     margin-top: -3rem;
     width: 100%;
-    /* margin-right: 10rem; */
-    /* margin-left: 10rem; */
     display: block;
 }
 
@@ -346,7 +338,6 @@ dl {
 .facility {
     width: 100%;
     height: 100vh;
-    /* background-color:cadetblue; */
     font-size: 100px;
     text-align: center;
     font-weight: 700;
@@ -464,8 +455,8 @@ dl {
 .photogallery {
     width: 100%;
     height: 100vh;
-    padding: 10rem;
-    /* background-color: rgb(52, 51, 51); */
+    margin: 5rem;
+    /* padding: 10rem; */
     font-size: 100px;
     text-align: center;
     font-weight: 700;
@@ -475,19 +466,24 @@ dl {
     font-size: 100px;
     text-align: center;
     font-weight: 700;
-    /* color: crimson; */
 }
 
 div.gallery {
-    margin: 5px;
-    /* border: 1px solid #ccc; */
+    margin: 1px;
     float: left;
-    width: 180px;
+    width: 120px;
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
+}
+
+.gallary-cont {
+    width: 1500px;
+    display: flexbox;
+    height: 300px;
+    position: absolute;
 }
 
 
