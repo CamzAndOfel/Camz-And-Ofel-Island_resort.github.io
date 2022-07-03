@@ -9,7 +9,11 @@ body {
 }
 
 .cover {
+<<<<<<< HEAD
     background-image: url('https://camzandofel.github.io/Camz-And-Ofel-Island_resort.github.io/assest/pic4.jpg');
+=======
+    background-image: url('https://camzandofel.github.io/Camz-And-Ofel-Island_resort.github.io/pic4.jpg');
+>>>>>>> b6beff329637bb1fb8489e4eba062d7bc2c9053f
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
