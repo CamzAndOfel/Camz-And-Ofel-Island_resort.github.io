@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/styling.css">
+    <title>document</title>
+</head>
+
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Pool')" id="defaultOpen">Pool</button>
+        <button class="tablinks" onclick="openCity(event, 'Room')">Room</button>
+        <button class="tablinks" onclick="openCity(event, 'Cottage')">Cottage</button>
+        <button class="tablinks" onclick="openCity(event, 'Play')">Play</button>
+        <button class="exit" onclick="location.href='../../index.html'">Exit</button>
+    </div>
+
+    <div id="Pool" class="tabcontent btn-content">
+        <span class="topright" onclick="this.parentElement.style.display='none'">&times;</span>
+        <h3>Pool</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="main_view">
+            <img src="../../assets/p2.jpg" id="main-1" alt="IMAGE">
+        </div>
+
+        <div class="private">
+            <h1>Private</h1>
+            <dl>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, dolores debitis iure incidunt dolorem natus aliquam animi, quia optio nostrum ad velit vel. Magnam in ex ab, architecto illo deleniti.</dl>
+            <div class="side_view">
+                <img src="../../assets/p2.jpg" onclick="change(this.src)" alt="">
+                <img src="../../assets/pic10.jpg" onclick="change(this.src)" alt="">
+            </div>
+        </div>
+        <div class="public">
+            <h1>public</h1>
+            <dl>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, dolores debitis iure incidunt dolorem natus aliquam animi, quia optio nostrum ad velit vel. Magnam in ex ab, architecto illo deleniti.</dl>
+
+            <div class="side_view">
+                <img src="../../assets/part1.jpg" onclick="change(this.src)" alt="">
+                <img src="../../assets/n1.jpg" onclick="change(this.src)" alt="">
+                <img src="../../assets/part3.jpg" onclick="change(this.src)" alt="">
+                <img src="../../assets/pic17.jpg" onclick="change(this.src)" alt="">
+                <img src="../../assets/pic29.jpg" onclick="change(this.src)" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="Room" class="tabcontent btn-content">
+        <span class="topright" onclick="this.parentElement.style.display='none'">&times;</span>
+        <h3>Room</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="preview">
+            <img src="../../assets/private2.jpg" alt="preview" id="preview-main">
+        </div>
+        <div class="side_view">
+            <img src="../../assets/private2.jpg" onclick="image(this.src)" alt="">
+            <img src="../../assets/private1.jpg" onclick="image(this.src)" alt="">
+        </div>
+        <dl>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus deserunt officia autem eveniet corporis atque sequi, hic asperiores amet aperiam assumenda pariatur accusantium sed consequatur, dignissimos alias, exercitationem dolorum. Optio?</dl>
+    </div>
+
+    <div id="Cottage" class="tabcontent btn-content">
+        <span class="topright" onclick="this.parentElement.style.display='none'">&times;</span>
+        <h3>Cottage</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <div class="preview">
+            <img src="../../assets/pic13.jpg" alt="Pic" id="image-main">
+        </div>
+        <div class="side_view">
+            <img src="../../assets/pic13.jpg" onclick="picture(this.src)" alt="">
+            <img src="../../assets/pic8.jpg" onclick="picture(this.src)" alt="">
+            <img src="../../assets/pic9.jpg" onclick="picture(this.src)" alt="">
+            <img src="../../assets/pic2.jpg" onclick="picture(this.src)" alt="">
+        </div>
+        <dl>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illum, maiores impedit minus dolorem quis dicta amet optio magnam enim fugiat necessitatibus vitae quidem accusamus ipsam repellendus laudantium placeat et?</dl>
+    </div>
+
+    <div id="Play" class="tabcontent btn-content">
+        <span class="topright" onclick="this.parentElement.style.display='none'">&times;</span>
+        <h3>Play</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="play-img">
+            <img src="../../assets/pic15.jpg" alt="Play" id="play-image">
+        </div>
+        <div class="side_view">
+            <img src="../../assets/pic15.jpg" onclick="Photo(this.src)" alt="">
+            <img src="../../assets/pic22.jpg" onclick="Photo(this.src)" alt="">
+            <img src="../../assets/n4.jpg" onclick="Photo(this.src)" alt="">
+        </div>
+    </div>
+
+    <script src="../backend/script.js"></script>
+    <script src="../../main.js"></script>
+</body>
+
+
+
+</html>
