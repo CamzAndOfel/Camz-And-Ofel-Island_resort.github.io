@@ -1,8 +1,3 @@
-body {
-    font-family: Arial;
-}
-
-
 /* tablinks */
 
 .tab {
@@ -33,7 +28,6 @@ body {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
 }
 
@@ -63,9 +57,8 @@ body {
 }
 
 .main_view {
-    width: 70%;
+    width: 100%;
     height: 40rem;
-    margin-left: 15rem;
 }
 
 .main_view img {
@@ -98,16 +91,15 @@ body {
 }
 
 .preview {
-    width: 70%;
+    width: 100%;
     height: 40rem;
-    margin-left: 15rem;
 }
 
 
 /* cottage */
 
 .img-view {
-    width: 70%;
+    width: 100%;
     height: 40rem;
     margin-left: 15rem;
 }
@@ -122,20 +114,12 @@ body {
 /* play */
 
 .play-img {
-    width: 70%;
+    width: 100%;
     height: 40rem;
-    margin-left: 15rem;
 }
 
 .play-img img {
     width: 100%;
     height: 100%;
     object-fit: fill;
-}
-
-
-/* exit */
-
-.exit {
-    /* float: right; */
 }

@@ -2,363 +2,353 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Welcome to Camz and Ofel resort</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Welcome to Camz and Ofel</title>
+    <link rel="icon" type="image/x-icon" href="public/logotest1.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="style.css" rel="stylesheet" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS custome -->
+    <link rel="stylesheet" href="/components/style/cli.abouttab.css">
+    <link rel="stylesheet" href="/components/style/cli.servicetab.css">
+    <link rel="stylesheet" href="/components/style/cli.contacttab.css">
+    <link rel="stylesheet" href="/components/style/popup.modal.css">
+    <!-- CSS View -->
+    <link rel="stylesheet" href="/components/style/styling.css">
 </head>
 
-<body>
-    <div class="cover">
-        <img src="./assets/title-white.png" alt="" class="title">
-
-        <div class="inside">
-            <div class="border">
-                <p class="style">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, nobis deleniti? Eum id neque eaque amet suscipit. Voluptate nostrum, facilis eligendi, a dignissimos suscipit quam eum dolorem aliquam facere consectetur.
-                </p>
-                <p class="msg">Enjoy and Relax with our resort</p>
-
-                <img class="mylogo" src="./assets/logotest1.png" alt="">
-                <br>
-                <a class="button btn btn-success" href="#popup1">Book Now!</a>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#page-top">Camz and Ofel Island Resort</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="button nav-link btn btn-warning" href="#popup1">Booking now</a></li>
+                </ul>
             </div>
 
-            <div id="popup1" class="overlay">
+            <div class="overlay" id="popup1">
                 <div class="popup">
-                    <h1>Online Booking Reservation</h1>
-                    <p style="text-align: center;">Please fil out the information below to complete your online reservation.</p>
+
                     <a class="close" href="#">&times;</a>
 
-                    <div class="content">
-                        <form>
-                            <div class="sign-form">
-                                <label for="Name" class="U-name-label">Name&#42;
-                                  <br>
-                                  <input type="text" id="Name" class="U-name">
-                                  <input type="text" id="Name" class="U-name">
-
-                                  <br>
-
-                                  <sub class="sub1">First Name</sub>
-                                  <sub class="sub2">Last Name</sub>
-                                </label>
-
+                    <div class="reserve-content">
+                        <h1>Online Booking Reservation</h1>
+                        <form action="">
+                            <div class="info-form">
+                                <label for="name" class="U-name-label">Name&#42;
+                                    <br>
+                                <input type="text" name="name" id="name" class="U-name">
+                                <input type="text" name="name" id="name" class="U-name">
                                 <br>
-
+                                <sub class="sub1">First Name</sub>
+                                <sub class="sub2">Last Name</sub>
+                                </label>
+                                <br>
                                 <label for="phone-no" class="U-name-label">Phone&#42;
-                                  <br>
-                                  <input type="tel" name="" id="phone-no" class="U-phone-inpt">
+                                    <br>
+                                    <input type="tel" name="phone-no" class="U-phone-inpt">
                                 </label>
-
                                 <br>
-
                                 <label for="email-add" class="U-name-label">Email&#42;<br>
-                                  <input type="email" name="" id="email-add" class="U-phone-inpt">
-                                </label>
+                                    <input type="email" name="" id="email-add" class="U-phone-inpt">
+                                  </label>
                             </div>
-
                             <hr>
-
-                            <h1>Reservation Option</h1>
-                            <p style="text-align: center;">The following options determine how many people will be serve.</p>
-
+                            <h1>Reservation option</h1>
+                            <p style="text-align: center;">please fill out the form correctly.</p>
                             <div class="reservation-form">
                                 <h5 class="labels-name">Tour</h5>
-                                <label class="labels" for="day"> 
-                                  <input class="labels" type="radio" id="day" name="fav_language" value="DAY"> 
-                                  Day tour</label>
-
+                                <label class="labels" for="day">
+                                    <input type="radio" name="fav_language" id="day" class="labels" value="DAY">Day Tour
+                                </label>
                                 <label class="labels" for="night">
-                                  <input class="labels" type="radio" id="night" name="fav_language" value="NIGHT">
-                                   Overnight</label>
-
+                                    <input class="labels" type="radio" id="night" name="fav_language" value="NIGHT">
+                                     Overnight</label>
                                 <h5 class="labels-name">Pool</h5>
-
                                 <label class="labels" for="Private-Pool">
-                                  <input class="labels" type="radio" id="Private-Pool" name="fav_Pool" value="POOL"> 
-                                  Private pool</label>
-
+                                    <input class="labels" type="radio" id="Private-Pool" name="fav_Pool" value="POOL"> 
+                                    Private pool</label>
                                 <label class="labels" for="Public-Pool">
-                                  <input class="labels" type="radio" id="Public-Pool" name="fav_Pool" value="POOL"> 
-                                  Public pool</label>
-
-                                <h5 class="labels-name">Resting</h5>
-
-                                <label class="labels" for="Room">
-                                  <input class="labels" type="radio" id="Room" name="fav_Rest" value="ROOM"> 
-                                  Room</label>
-
-
-                                <label class="labels" for="Cottage">
-                                  <input class="labels" type="radio" id="Cottage" name="fav_Rest" value="ROOM"> 
-                                  Cottage</label>
-
-
-                                <label class="labels" for="Kubo">
-                                  <input class="labels" type="radio" id="Kubo" name="fav_Rest" value="ROOM"> 
-                                  Kubo</label>
+                                    <input class="labels" type="radio" id="Public-Pool" name="fav_Pool" value="POOL"> 
+                                    Public pool</label>
+                                <h5 class="labels-name">Staying</h5>
+                                <label for="Room">
+                                    <input type="radio" name="fav_stay" id="Room" value="stay">
+                               Room</label>
+                                <label for="kubo">
+                                    <input type="radio" name="fav_stay" id="kubo" value="stay">
+                                Kubo</label>
+                                <h5 class="labels-name">Additional</h5>
+                                <label for="gazebo">
+                                    <input type="radio" name="fav_adds" id="gazebo">
+                                Gazebo</label>
+                                <label for="videoke">
+                                    <input type="radio" name="fav_adds" id="videoke">
+                                Videoke</label>
                             </div>
-
                             <hr class="check-done">
 
                             <div class="check-done">
                                 <input class="done-info" type="checkbox" name="done" id="done">
                                 <h6 class="done-info parag">if your done check this message.</h6>
-                                <button onclick="window.print()" style="display: block; margin-left:20rem;">Print this</button>
+                                <button onclick="window.print()" class="btn btn-primary" style="display: block; margin-left:21rem;">Print this</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-
         </div>
+    </nav>
 
-        <div class="scroll-info">
-            <span class="material-symbols-outlined">swipe_down</span>
-            <p class="notice">(SCROLL FOR MORE)</p>
+    <!-- Header-->
+    <header class="bg-primary bg-gradient text-white">
+        <div class="container px-4 text-center">
+            <h1 class="fw-bolder">Welcome to Camz and Ofel Online Reservation Booking</h1>
+            <p class="lead">A functional Booking reservation just for you</p>
+            <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
         </div>
-    </div>
+    </header>
+    <!-- About section-->
+    <section id="about">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
 
-    <div class="body">
-        <div class="about">
-            <h1>ABOUT</h1>
-            <h4>What we are</h4>
-            <div class="right">
-                <img class="about-img" src="./assets/back.png" alt="">
-            </div>
-            <div class="left">
-                <p class="info">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur odit delectus, minima tempore distinctio magni dolor consequuntur nisi asperiores blanditiis voluptatum deleniti tempora repudiandae impedit voluptas corporis earum? Eius tempora dolorum
-                    unde neque minus iste veniam alias sapiente rem odit dicta dignissimos tempore. <br><br>Asperiores nemo porro vero numquam neque cumque sapiente quos repellendus iusto, assumenda facilis rerum officia, sed tempore
-                    esse! Molestiae voluptas inventore ab deleniti corrupti, praesentium soluta non eos facilis reprehenderit qui, optio expedita hic, incidunt animi suscipit eaque nisi a quos mollitia consequuntur.<br><br>Exercitationem rerum neque necessitatibus,
-                    adipisci dolorum delectus velit quo voluptatum temporibus ipsum amet mollitia labore nostrum maxime quae laborum assumenda fuga impedit nulla recusandae! Excepturi facere unde expedita voluptates itaque neque laborum magni maxime,
-                    id dolore quae corrupti delectus consectetur vel rem asperiores! Nihil, dignissimos totam saepe nam ullam, sed earum dicta perspiciatis ratione impedit animi dolor itaque, unde nulla repudiandae repellat? Doloribus, in officia illum,
-                    consectetur quaerat eaque expedita laboriosam rerum facilis omnis velit eveniet cupiditate sit iusto maiores sed facere! Esse eos officia distinctio laudantium repudiandae quidem doloremque aliquid?</p>
-            </div>
+                    <h2>About Resort</h2>
+                    <img src="./assets/front.jpg" alt="" class="About-img">
+                    <p class="lead"><b>Camz & Ofel Island Resort</b> is the first swimming pool resort established here at Talim island Binangonan Rizal with 4,526 sq, on target focus of safety and confort of the guest in their homeland.
+                        <br>
+                        <br> The businesswas started to operate April 2018 owned by Mr. Avelino and Mrs. Ofelia Villadiego. They are working as fishpond operators and fish dealers. They have 3 daughter and finised their respective degrees.
+                        <br>
+                        <br> Resort was fully registered in all government aspect with 5 employees.
+                        <br>
+                        <br> Way back 2015 those land was bamboo field owned by other family and when they sold it first idea was poultry darm but to consider that this was near residential area they changed the plan and an engineer advised them to make
+                        it resort and give them proposal with design how wil it looks like. Even it is against all odds and many criticisms they pursue the business and established the resort.
+                        <br>
+                        <br> Till now the resort is operating despite of the Pandemic, we followed the guidelines and Health Protocols and the Municipality of Binangonan gave us Safety Seal to operate.
+                    </p>
+                    <h2>List of Facilities in our Resort</h2>
+                    <p class="lead">the following image are the facilities we offer for you. You can view the image by simple click the image.</p>
+                    <table class="collumn">
+                        <tr>
+                            <td>
+                                <a class="tablinks" onclick="openCity(event, 'Pool')" id="defaultOpen">
+                                    <img src="./assets/p1.jpg" alt="Pool" class="img-link">
+                                </a>
+                                <div class="name-link">
+                                    <p>Pool</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a class="tablinks" onclick="openCity(event, 'room')">
+                                    <img src="./assets/private1.jpg " class="img-link" alt="room">
+                                </a>
+                                <div class="name-link">
+                                    <p>Room</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a class="tablinks" onclick="openCity(event, 'Kubo')">
+                                    <img src="./assets/pic13.jpg" alt="Kubo" class="img-link">
+                                </a>
+                                <div class="name-link">
+                                    <p>Kubo</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a class="tablinks" onclick="openCity(event, 'Play')">
+                                    <img src="/assets/pic32.jpg" alt="play" class="img-link">
+                                </a>
+                                <div class="name-link">
+                                    <p>Others</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
 
-        </div>
+                    <div id="Pool" class="tabcontent btn-content">
+                        <span class="topright" onclick="this.parentElement.style.display='none'">&times;</span>
+                        <h3>Pool</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-        <!-- services -->
-        <div class="services">
-            <h1>SERVICES</h1>
-            <h4>What we offer</h4>
-            <div class="row">
+                        <div class="main_view">
+                            <img src="../../assets/p2.jpg" id="main-1" alt="IMAGE">
+                        </div>
 
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-power" viewBox="0 0 16 16">
-  <path d="M7.5 1v7h1V1h-1z"/>
-  <path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z"/>
-</svg>
-                    <div class="name">
-                        <label for="name">Power</label>
-                        <dl>Lorem ipsum dolor sit amet.</dl>
+                        <div class="private">
+                            <h1>Private</h1>
+                            <dl>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, dolores debitis iure incidunt dolorem natus aliquam animi, quia optio nostrum ad velit vel. Magnam in ex ab, architecto illo deleniti.</dl>
+                            <div class="side_view">
+                                <img src="../../assets/p2.jpg" onclick="change(this.src)" alt="">
+                                <img src="../../assets/pic10.jpg" onclick="change(this.src)" alt="">
+                            </div>
+                        </div>
+                        <div class="public">
+                            <h1>public</h1>
+                            <dl>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, dolores debitis iure incidunt dolorem natus aliquam animi, quia optio nostrum ad velit vel. Magnam in ex ab, architecto illo deleniti.</dl>
+
+                            <div class="side_view">
+                                <img src="../../assets/part1.jpg" onclick="change(this.src)" alt="">
+                                <img src="../../assets/n1.jpg" onclick="change(this.src)" alt="">
+                                <img src="../../assets/part3.jpg" onclick="change(this.src)" alt="">
+                                <img src="../../assets/pic17.jpg" onclick="change(this.src)" alt="">
+                                <img src="../../assets/pic29.jpg" onclick="change(this.src)" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="room" class="tabcontent btn-content">
+                        <span class="topright" onclick="this.parentElement.style.display='none'">&times;</span>
+                        <h3>Room</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="preview">
+                            <img src="../../assets/private2.jpg" alt="preview" id="preview-main">
+                        </div>
+                        <div class="side_view">
+                            <img src="../../assets/private2.jpg" onclick="image(this.src)" alt="">
+                            <img src="../../assets/private1.jpg" onclick="image(this.src)" alt="">
+                        </div>
+                        <dl>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus deserunt officia autem eveniet corporis atque sequi, hic asperiores amet aperiam assumenda pariatur accusantium sed consequatur, dignissimos alias, exercitationem
+                            dolorum. Optio?</dl>
+                    </div>
+
+                    <div id="Kubo" class="tabcontent btn-content">
+                        <span class="topright" onclick="this.parentElement.style.display='none'">&times;</span>
+                        <h3>Cottage</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+
+                        <div class="preview">
+                            <img src="../../assets/pic13.jpg" alt="Pic" id="image-main">
+                        </div>
+                        <div class="side_view">
+                            <img src="../../assets/pic13.jpg" onclick="picture(this.src)" alt="">
+                            <img src="../../assets/pic8.jpg" onclick="picture(this.src)" alt="">
+                            <img src="../../assets/pic9.jpg" onclick="picture(this.src)" alt="">
+                            <img src="../../assets/pic2.jpg" onclick="picture(this.src)" alt="">
+                        </div>
+                        <dl>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illum, maiores impedit minus dolorem quis dicta amet optio magnam enim fugiat necessitatibus vitae quidem accusamus ipsam repellendus laudantium placeat et?</dl>
+                    </div>
+
+
+                    <div id="Play" class="tabcontent btn-content">
+                        <span class="topright" onclick="this.parentElement.style.display='none'">&times;</span>
+                        <h3>Play</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="play-img">
+                            <img src="../../assets/pic15.jpg" alt="Play" id="play-image">
+                        </div>
+                        <div class="side_view">
+                            <img src="../../assets/pic15.jpg" onclick="Photo(this.src)" alt="">
+                            <img src="../../assets/pic22.jpg" onclick="Photo(this.src)" alt="">
+                            <img src="../../assets/n4.jpg" onclick="Photo(this.src)" alt="">
+                        </div>
                     </div>
                 </div>
-
-                <!-- love -->
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
-  <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
-</svg>
-                    <div class="name">
-                        <label for="name">Love</label>
-                        <dl>Lorem ipsum dolor sit amet.</dl>
-                    </div>
-                </div>
-
-                <!-- job -->
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
-  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
-</svg>
-                    <div class="name">
-                        <label for="name">Job Done</label>
-                        <dl>Lorem ipsum dolor sit amet.</dl>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <!-- safety -->
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-lock-fill" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm0 5a1.5 1.5 0 0 1 .5 2.915l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99A1.5 1.5 0 0 1 8 5z"/>
-</svg>
-                    <div class="name">
-                        <label for="name">Safety</label>
-                        <dl>Lorem ipsum dolor sit amet.</dl>
-                    </div>
-                </div>
-
-                <!-- certified -->
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
-  <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
-</svg>
-                    <div class="name">
-                        <label for="name">Certified</label>
-                        <dl>Lorem ipsum dolor sit amet.</dl>
-                    </div>
-                </div>
-
-                <!-- hardworking -->
-                <div class="col">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wrench-adjustable-circle-fill" viewBox="0 0 16 16">
-  <path d="M6.705 8.139a.25.25 0 0 0-.288-.376l-1.5.5.159.474.808-.27-.595.894a.25.25 0 0 0 .287.376l.808-.27-.595.894a.25.25 0 0 0 .287.376l1.5-.5-.159-.474-.808.27.596-.894a.25.25 0 0 0-.288-.376l-.808.27.596-.894Z"/>
-  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm-6.202-4.751 1.988-1.657a4.5 4.5 0 0 1 7.537-4.623L7.497 6.5l1 2.5 1.333 3.11c-.56.251-1.18.39-1.833.39a4.49 4.49 0 0 1-1.592-.29L4.747 14.2a7.031 7.031 0 0 1-2.949-2.951ZM12.496 8a4.491 4.491 0 0 1-1.703 3.526L9.497 8.5l2.959-1.11c.027.2.04.403.04.61Z"/>
-</svg>
-                    <div class="name">
-                        <label for="name">Hardworking</label>
-                        <dl>Lorem ipsum dolor sit amet.</dl>
-                    </div>
-                </div>
-
             </div>
         </div>
+    </section>
+    <!-- Services section-->
+    <section class="bg-light" id="services">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Services we offer</h2>
+                    <p class="lead">To insure your safety we offer our heartly service for your trust.</p>
+                    <div class="service-row row">
 
+                        <div class="service-col col">
+                            <!-- power -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-power svg" viewBox="0 0 16 16">
+                                <path d="M7.5 1v7h1V1h-1z"/>
+                                <path d="M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z"/>
+                              </svg>
+                            <div class="name">
+                                <label for="name">Power</label>
+                                <dl>Lorem ipsum dolor sit amet.</dl>
+                            </div>
+                        </div>
 
-        <!-- facility -->
-        <div class="facility">
-            <h1>FACILITY</h1>
-            <h4>What we build</h4>
-            <div class="body-cont">
-                <!-- Pool -->
-                <div class="cont1">
-                    <img src="./assets/part1.jpg" class="image shadow" alt="" srcset="">
-                    <a href="/components//frontend/facility.html" class="label1">POOL</a
+                        <!-- love -->
+                        <div class="service-col col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-suit-heart-fill svg" viewBox="0 0 16 16">
+          <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+        </svg>
+                            <div class="name">
+                                <label for="name">Love</label>
+                                <dl>Lorem ipsum dolor sit amet.</dl>
+                            </div>
+                        </div>
+
+                        <!-- job -->
+                        <div class="service-col col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-bag-fill svg" viewBox="0 0 16 16">
+          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+        </svg>
+                            <div class="name">
+                                <label for="name">Job Done</label>
+                                <dl>Lorem ipsum dolor sit amet.</dl>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-row row">
+                        <!-- safety -->
+                        <div class="service-col col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-shield-lock-fill svg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm0 5a1.5 1.5 0 0 1 .5 2.915l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99A1.5 1.5 0 0 1 8 5z"/>
+        </svg>
+                            <div class="name">
+                                <label for="name">Safety</label>
+                                <dl>Lorem ipsum dolor sit amet.</dl>
+                            </div>
+                        </div>
+
+                        <!-- certified -->
+                        <div class="service-col col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-patch-check-fill svg" viewBox="0 0 16 16">
+          <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+        </svg>
+                            <div class="name">
+                                <label for="name">Certified</label>
+                                <dl>Lorem ipsum dolor sit amet.</dl>
+                            </div>
+                        </div>
+
+                        <!-- hardworking -->
+                        <div class="service-col col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-wrench-adjustable-circle-fill svg" viewBox="0 0 16 16">
+          <path d="M6.705 8.139a.25.25 0 0 0-.288-.376l-1.5.5.159.474.808-.27-.595.894a.25.25 0 0 0 .287.376l.808-.27-.595.894a.25.25 0 0 0 .287.376l1.5-.5-.159-.474-.808.27.596-.894a.25.25 0 0 0-.288-.376l-.808.27.596-.894Z"/>
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm-6.202-4.751 1.988-1.657a4.5 4.5 0 0 1 7.537-4.623L7.497 6.5l1 2.5 1.333 3.11c-.56.251-1.18.39-1.833.39a4.49 4.49 0 0 1-1.592-.29L4.747 14.2a7.031 7.031 0 0 1-2.949-2.951ZM12.496 8a4.491 4.491 0 0 1-1.703 3.526L9.497 8.5l2.959-1.11c.027.2.04.403.04.61Z"/>
+        </svg>
+                            <div class="name">
+                                <label for="name">Hardworking</label>
+                                <dl>Lorem ipsum dolor sit amet.</dl>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-
-                <!-- Room -->
-                <div class="cont2">
-                    <label for="title" class="label2">ROOM</label>
-                    <img src="./assets/private1.jpg" class="image" alt="" srcset="">
-                </div>
-
-                <!-- COTTAGE -->
-                <div class="cont4">
-                    <label for="title" class="label4">COTTAGE</label>
-                    <img src="./assets/pic13.jpg" class="image" alt="" srcset="">
-                </div>
-
-                <!-- ENTERTAINMENT -->
-                <div class="cont3">
-                    <label for="title" class="label3">PLAY</label>
-                    <img src="./assets/pic7.jpg" class="image" alt="" srcset="">
-                </div>
-
             </div>
         </div>
-
-        <!-- gallery -->
-        <div class="photogallery">
-            <h1>PHOTOGALLERY</h1>
-            <h4>What we create</h4>
-
-            <div class="gallary-cont">
-                <!-- 1 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/n1.jpg">
-                        <img src="./assets/n1.jpg" alt="first" width="600" height="400">
-                    </a>
-                </div>
-                <!-- 2 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/pic4.jpg">
-                        <img src="./assets/pic4.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-                <!-- 3 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/n3.jpg">
-                        <img src="./assets/n3.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-                <!-- 4 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets//n4.jpg">
-                        <img src="./assets//n4.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-                <!-- 5 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/p1.jpg">
-                        <img src="./assets/p1.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-                <!-- 6 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/p2.jpg">
-                        <img src="./assets/p2.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-
-                <!-- 7-->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/part1.jpg">
-                        <img src="./assets/part1.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-                <!-- 8 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/part2.jpg">
-                        <img src="./assets/part2.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-                <!-- 9 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/part3.jpg">
-                        <img src="./assets/part3.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-                <!-- 10 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/part5.jpg">
-                        <img src="./assets/part5.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-                <!-- 11 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/pic10.jpg">
-                        <img src="./assets/pic10.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-
-                <!-- 12 -->
-                <div class="gallery">
-                    <a target="_blank" href="./assets/pic11.jpg">
-                        <img src="./assets/pic11.jpg" alt="second" width="600" height="400">
-                    </a>
-                </div>
-
-            </div>
-
-
-        </div>
-
-        <!-- contact -->
-        <div class="contactus">
-            <h1>CONTACT US</h1>
-            <h4>What's our response</h4>
-
-            <div class="container-1">
-
-                <div class="right">
-                    <!-- right -->
-                    <form class="form-contact" action="/action_page.php" id="form1">
-                        <input type="text" name="name" id="" placeholder="Name" required>
-                        <input type="text" name="email" id="" placeholder="Email" required>
-                        <textarea name="Comment" id="" cols="30" rows="10" placeholder="Comment"></textarea>
-                        <button type="button" class="btn btn-light">Submit</button>
-                    </form>
-
-                </div>
-
-                <div class="left">
-                    <!-- left -->
-                    <p>Contact us and we'll get back to you within 24 hours.</p>
+    </section>
+    <!-- Contact section-->
+    <section id="contact">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2>Contact us</h2>
+                    <p class="lead">If you have follow-up question about us, you can contact on this info bellow. <br>
+                    </p>
 
                     <div class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
@@ -378,11 +368,22 @@
                         <span>+0934565789</span>
                         <span>Cams.Ofel2022@gmail.com</span>
                     </div>
+                    <p>Contact us and we'll get back to you within 24 hours.</p>
                 </div>
-
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-4">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="/components/backend/cli.script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>

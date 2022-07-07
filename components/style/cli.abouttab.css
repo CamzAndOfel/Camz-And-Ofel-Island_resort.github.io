@@ -1,0 +1,25 @@
+.About-img {
+    width: 112vh;
+    height: 70vh;
+}
+
+.collum {
+    width: 100%;
+}
+
+td {
+    /* border: 1px solid black; */
+}
+
+.img-link {
+    width: 13rem;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.name-link {
+    margin-top: -100px;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}

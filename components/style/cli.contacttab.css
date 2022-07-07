@@ -1,0 +1,25 @@
+.icon {
+    /* position: absolute; */
+    text-align: left;
+    margin-left: 12rem;
+}
+
+.icon svg {
+    width: 200px;
+    display: block;
+    margin: 1rem;
+}
+
+.detail {
+    /* position: absolute; */
+    margin-left: 20rem;
+    margin-top: -6.40rem;
+    text-align: left;
+}
+
+.detail span {
+    margin: 0.55rem;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+}

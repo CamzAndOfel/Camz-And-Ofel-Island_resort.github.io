@@ -1,0 +1,198 @@
+.btn-warning {
+    color: #333;
+}
+
+.btn-warning:hover {
+    color: #fff;
+}
+
+.button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin-top: 5rem;
+    margin-left: 25rem;
+    padding: 10px;
+    text-align: left;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    height: 70vh;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .reserve-content {
+    max-height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.popup h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #0d6efd;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.U-name-label {
+    text-align: left;
+    font-size: 20px;
+    display: block;
+}
+
+.U-name {
+    display: inline;
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.sub1 {
+    float: left;
+    left: 10px;
+    top: 10px;
+}
+
+.sub2 {
+    float: right;
+    right: 315px;
+    top: 10px;
+}
+
+.U-phone-inpt {
+    width: 683px;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.U-name,
+.U-phone-inpt {
+    border: 2px solid #ccc;
+}
+
+.U-name,
+.U-phone-inpt:hover {
+    border: 2px solid #0d6efd;
+    border-radius: 5px;
+}
+
+.sign-form {
+    margin-left: 5%;
+}
+
+.reservation-form {
+    text-align: center;
+}
+
+.labels {
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.labels-name {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* check-done btn */
+
+.check-done {
+    text-align: center;
+}
+
+.done-info {
+    display: inline;
+    margin-left: 10px;
+}
+
+.parag {
+    left: 10rem;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+    .popup {
+        width: 70%;
+    }
+}
+
+
+/* printing */
+
+@media print {
+    header,
+    section,
+    footer {
+        display: none;
+    }
+    .popup {
+        padding-top: 7rem;
+        left: -25rem;
+        text-align: left;
+        height: 230vh;
+        width: 90%;
+        display: block;
+        overflow: none;
+        font-size: 1rem;
+    }
+    .popup h1 {
+        font-size: 1rem;
+    }
+    .reserve-content {
+        /* width: 5000vh; */
+    }
+    .check-done {
+        display: none;
+    }
+    .U-phone-inpt {
+        width: 500px;
+    }
+    .close {
+        display: none;
+    }
+}
