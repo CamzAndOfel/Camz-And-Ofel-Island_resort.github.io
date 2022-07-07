@@ -1,14 +1,10 @@
 .About-img {
-    width: 100%;
+    width: 110vh;
     height: 70vh;
 }
 
 .collum {
-    width: 100%;
-}
-
-td {
-    /* border: 1px solid black; */
+    width: 100vh;
 }
 
 .img-link {
