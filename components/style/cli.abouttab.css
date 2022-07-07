@@ -7,6 +7,11 @@
     width: 100vh;
 }
 
+td {
+    width: 13rem;
+    height: 50vh;
+}
+
 .img-link {
     width: 13rem;
     height: 50vh;
