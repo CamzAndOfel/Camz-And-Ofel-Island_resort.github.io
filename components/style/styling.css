@@ -56,18 +56,6 @@
     float: right;
 }
 
-.main_view {
-    width: 70vh;
-    height: 20rem;
-    margin-left: 50rem;
-}
-
-.main_view img {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
-
 .side_view {
     display: flex;
     justify-content: center;
@@ -83,6 +71,21 @@
 }
 
 
+/* pool tab */
+
+.main_view {
+    width: 70vh;
+    height: 20rem;
+    /* margin-left: ; */
+}
+
+.main_view img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
 /* room */
 
 .preview img {
@@ -94,7 +97,7 @@
 .preview {
     width: 70vh;
     height: 20rem;
-    margin-left: 50rem;
+    /* margin-left: 50rem; */
 }
 
 
@@ -103,7 +106,7 @@
 .img-view {
     width: 70vh;
     height: 20rem;
-    margin-left: 50rem;
+    /* margin-left: 50rem; */
 }
 
 .img-view img {
@@ -118,7 +121,7 @@
 .play-img {
     width: 70vh;
     height: 20rem;
-    margin-left: 50rem;
+    /* margin-left: 50rem; */
 }
 
 .play-img img {
