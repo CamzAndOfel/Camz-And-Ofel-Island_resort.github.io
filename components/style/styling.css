@@ -94,6 +94,7 @@
 .preview {
     width: 70vh;
     height: 20rem;
+    text-align: center;
 }
 
 
@@ -102,6 +103,7 @@
 .img-view {
     width: 70vh;
     height: 20rem;
+    text-align: center;
 }
 
 .img-view img {
@@ -116,6 +118,7 @@
 .play-img {
     width: 70vh;
     height: 20rem;
+    text-align: center;
 }
 
 .play-img img {
