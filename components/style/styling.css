@@ -118,7 +118,7 @@
 .play-img {
     width: 70vh;
     height: 20rem;
-    text-align: center;
+    margin-left: 5rem;
 }
 
 .play-img img {
