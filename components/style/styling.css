@@ -59,7 +59,7 @@
 .main_view {
     width: 70vh;
     height: 20rem;
-    margin-left: 20rem;
+    margin-left: 50rem;
 }
 
 .main_view img {
@@ -94,7 +94,7 @@
 .preview {
     width: 70vh;
     height: 20rem;
-    margin-left: 20rem;
+    margin-left: 50rem;
 }
 
 
@@ -103,7 +103,7 @@
 .img-view {
     width: 70vh;
     height: 20rem;
-    margin-left: 20rem;
+    margin-left: 50rem;
 }
 
 .img-view img {
@@ -118,7 +118,7 @@
 .play-img {
     width: 70vh;
     height: 20rem;
-    margin-left: 20rem;
+    margin-left: 50rem;
 }
 
 .play-img img {
