@@ -59,7 +59,7 @@
 .main_view {
     width: 70vh;
     height: 20rem;
-    text-align: center;
+    margin-left: 5rem;
 }
 
 .main_view img {
@@ -94,7 +94,7 @@
 .preview {
     width: 70vh;
     height: 20rem;
-    text-align: center;
+    margin-left: 5rem;
 }
 
 
@@ -103,7 +103,7 @@
 .img-view {
     width: 70vh;
     height: 20rem;
-    text-align: center;
+    margin-left: 5rem;
 }
 
 .img-view img {
