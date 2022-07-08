@@ -59,6 +59,7 @@
 .main_view {
     width: 70vh;
     height: 20rem;
+    text-align: center;
 }
 
 .main_view img {
