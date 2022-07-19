@@ -13,7 +13,7 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += "active";
 }
 
-document.getElementById("defaultOpen").click();
+// document.getElementById("defaultOpen").click();
 
 const change = src => {
     document.getElementById('main-1').src = src
