@@ -168,6 +168,8 @@
 }
 
 .nightplan {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
     border: 4px solid #082840;
     width: 300px;
     height: 3rem;
@@ -190,6 +192,8 @@
 }
 
 .dayplan {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
     border: 4px solid #000;
     width: 300px;
     height: 3rem;
@@ -227,7 +231,96 @@
     color: #ccc;
 }
 
+/* rates for private */
+.private-filter-cont{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: -5rem;
+}
+.private-card1{
+  float: left;
+  margin-left: 5rem;
+  margin-top: 10rem;
+  background: #88b8e8;
+  width: 35%;
+  height: 35rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align:center;
+    color: white;
+}
+.bundle{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+.rates-img{
+  width: 100%;
+  margin-top: -10rem;
+}
+.pri-intact{
+  display: block;
+  height: 60px;
+  width: 100%;
+    margin-left: 1rem;
+}
+.pri-tour{
+  font-size: 2rem;
 
+}
+.pri-list{
+  float: right;
+}
+.private-dayplan{
+  width: 294px;
+  margin-top: -2px;
+  height: 3rem;
+  border: 4px solid #88b8e8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.private-dayplan:hover {
+    background: #4880b0;
+    color: white;
+}
+
+/* private night */
+.private-card2{
+  margin-right: 5rem;
+  float: right;
+  margin-top: 10rem;
+  background: #737eab;
+  width: 35%;
+  height: 35rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align:center;
+    color: white;
+}
+.bundleprice{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.private-nightplan{
+  width: 294px;
+  margin-top: -2px;
+  height: 3rem;
+  border: 4px solid #737eab;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.private-nightplan:hover {
+    background: #504878;
+    color: white;
+}
 /* service section */
 .service-row {
     width: 100%;
