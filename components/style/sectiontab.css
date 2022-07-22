@@ -1,0 +1,381 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* root color / bg-color */
+/* about section */
+/* nothing to costomize in about section */
+
+/* facilities section */
+.collum {
+    width: 100vh;
+}
+.img-link {
+    width: 13rem;
+    height: 50vh;
+    object-fit: cover;
+}
+.name-link {
+    margin-top: -100px;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.tabcontent {
+  margin-top: 3rem;
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.side_view {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.side_view img {
+    width: 9rem;
+    height: 7rem;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+/* pool tab */
+
+.main_view {
+    width: 70vh;
+    height: 20rem;
+    margin-left: 10rem;
+}
+.main_view img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+/* pool tab */
+
+.private {
+  word-wrap: break-word;
+    width: 45%;
+    float: left;
+}
+
+.public {
+    margin: 0 auto;
+    width: 50%;
+    float: right;
+}
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.topright:hover {
+    color: red;
+}
+/* room */
+
+.preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.preview {
+    width: 70vh;
+    height: 20rem;
+    margin-left: 10rem;
+}
+/* cottage */
+
+.img-view {
+    width: 70vh;
+    height: 20rem;
+    margin-left: 10rem;
+}
+
+.img-view img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+/* play */
+
+.play-img {
+    width: 70vh;
+    height: 20rem;
+    margin-left: 10rem;
+}
+
+.play-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* rates section */
+.filter-cont {
+    /* margin-top: 10rem; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#rates-img {
+    width: 300px;
+    object-fit: cover;
+    height: 30rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.intact,
+.person {
+    display: block;
+    height: 60px;
+    width: 100%;
+}
+
+.card1 {
+    float: left;
+    display: inline;
+    margin-left: 5rem;
+    border-radius: 10px;
+    box-shadow: 1px 10px 100px #fc7f79;
+}
+
+.nightplan {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+    border: 4px solid #082840;
+    width: 300px;
+    height: 3rem;
+    margin-left: -1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.nightplan:hover {
+    background: #184058;
+    color: white;
+}
+
+.card2 {
+    float: right;
+    margin-right: 5rem;
+    box-shadow: 1px 10px 100px #7efabe;
+    border-radius: 10px;
+}
+
+.dayplan {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+    border: 4px solid #000;
+    width: 300px;
+    height: 3rem;
+    margin-left: -1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.dayplan:hover {
+    background: #222322;
+    color: white;
+}
+
+.card-detail {
+    position: absolute;
+    margin-top: -20rem;
+    color: aliceblue;
+    margin-left: 1rem;
+}
+
+.tour {
+    font-size: 2rem;
+}
+
+.person {
+    border-bottom: 3px solid white;
+    border-radius: 10px;
+    width: 265px;
+}
+
+.sub {
+    margin-top: -30px;
+    margin-bottom: -20px;
+    color: #ccc;
+}
+
+/* rates for private */
+.private-filter-cont{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: -5rem;
+}
+.private-card1{
+  float: left;
+  margin-left: 5rem;
+  margin-top: 10rem;
+  background: #88b8e8;
+  width: 35%;
+  height: 35rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align:center;
+    color: white;
+}
+.bundle{
+  text-align: left;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+.rates-img{
+  width: 100%;
+  margin-top: -10rem;
+}
+.pri-intact{
+  display: block;
+  height: 60px;
+  width: 100%;
+    margin-left: 1rem;
+}
+.pri-tour{
+  font-size: 2rem;
+
+}
+.pri-list{
+  float: right;
+}
+.private-dayplan{
+  width: 294px;
+  margin-top: -2px;
+  height: 3rem;
+  border: 4px solid #88b8e8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.private-dayplan:hover {
+    background: #4880b0;
+    color: white;
+}
+
+/* private night */
+.private-card2{
+  margin-right: 5rem;
+  float: right;
+  margin-top: 10rem;
+  background: #737eab;
+  width: 35%;
+  height: 35rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align:center;
+    color: white;
+}
+.bundleprice{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.private-nightplan{
+  width: 294px;
+  margin-top: -2px;
+  height: 3rem;
+  border: 4px solid #737eab;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.private-nightplan:hover {
+    background: #504878;
+    color: white;
+}
+/* service section */
+.service-row {
+    width: 100%;
+    text-align: center;
+}
+
+.service-col {
+    display: inline;
+    width: 200px;
+    height: 300px;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+
+.svg {
+    width: 100px;
+    height: 100px;
+    color: #f87030;
+}
+
+label {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+dl {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.name {
+    text-align: center;
+}
+
+
+/* contact section*/
+.icon {
+    text-align: left;
+    margin-left: 12rem;
+}
+.icon svg {
+    width: 200px;
+    display: block;
+    margin: 1rem;
+}
+.detail {
+    margin-left: 20rem;
+    margin-top: -6.40rem;
+    text-align: left;
+}
+
+.detail span {
+    margin: 0.55rem;
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+}
