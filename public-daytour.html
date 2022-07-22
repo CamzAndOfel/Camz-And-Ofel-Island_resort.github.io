@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="public/logotest1.ico" />
     <!-- link css -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="components/style/tour.css">
   </head>
   <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
@@ -27,28 +28,132 @@
             </div>
         </div>
     </nav>
-
+    
     <section class="hidden-title">
       <img src="assets/logotest1.png" alt="" style="width:100px; height:90px;">
       <h3>Camz and Ofel island resort</h3>
       <p>Malacaban Talim Island Binangonan Rizal, 1940 Binanginan. Philippines, <code>0919 857 1399</code> , <a href="#">camzandofelislandresort@gmail.com</a></p>
     </section>
-
+    
     <section class="fillup">
       <form class="customer-fillup" action="index.html" method="post">
-        <label for="name">
-        Full name:
-        <input type="text" name="name" value="" id="name">
-      </label>
-      <label for="contact">
-      Contact no.
-      <input type="tel" name="contact" value="" id="contact">
-    </label>
-    <label for="email">
-    Email:
-    <input type="email" name="email" value="" id="email">
-  </label>
+        <label for="name">Full name:
+          <input type="text" name="name" value="" id="name">
+        </label>
+        
+        <label for="contact">Contact no.
+          <input type="tel" name="contact" value="" id="contact">
+        </label>
+        
+        <label for="email">Email:
+          <input type="email" name="email" value="" id="email">
+        </label>
       </form>
     </section>
+    
+    <section class="plan">
+      <div class="plan-title">
+        <h1>Daytour Plan</h1>
+        <p>8am - 5pm</p>
+      </div>
+      <div class="calculation">
+        <div class="row1">
+          <ul>
+            <li class="title"><b>Person</b></li>
+            <li class="list">Kids</li>
+            <li class="list">Adult</li>
+            <li class="list">Senior</li>
+          </ul>
+        </div>
+
+        <div class="row2">
+          
+            <table>
+              <tr>
+                <th>*PPP</th>
+                <th>*no.</th>
+                <th>Price</th>
+              </tr>
+            </table>
+              <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+              <table>
+                <tr>
+                <td><input type="number" name="" id="a" value="110.00" disabled></td>
+                <td><input type="number" id="b" value="0"></td>
+                <td><output name="x" for="a b" id="l"></output></td>
+              </tr>
+              </table>
+              </form>
+
+              <form oninput="y.value=parseInt(c.value)*parseInt(d.value)">
+                <table>
+                  <tr>
+                  <td><input type="number" name="" id="c" value="110.00" disabled></td>
+                  <td><input type="number" id="d" value="0"></td>
+                  <td><output name="y" for="c d" id="m"></output></td>
+                  </tr>
+                </table>
+              </form>
+
+              <form oninput="z.value=parseInt(e.value)*parseInt(f.value)">
+                <table>
+                  <tr>
+                  <td><input type="number" name="" id="e" value="110.00" disabled></td>
+                  <td><input type="number" id="f" value="0"></td>
+                  <td><output name="z" for="e f" id="n"></output></td>
+                </tr>
+                </table>
+              </form>
+
+              
+              <table>
+                <td></td>
+                <td>Total:</td>
+                <td><output name="total-price" for="l m n"></output></td>
+              </table>
+              <sub>*Children 2 1/2 and below are free.</sub>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="rental">
+      <form action="/action_page.php">
+        <table>
+        <tr>
+          <td><b>Pool: </b></td>
+          <td>Public</td>
+        </tr>
+        <tr>
+          <td><b>Rent: </b></td>
+          <td>
+            <label for="Gazebo"><input type="radio" name="fav_language" id="Gazebo" value="GAZEBO">Gazebo</label>
+            <label for="kubo"><input type="radio" name="fav_language" id="kubo" value="KUBO">Kubo</label>
+            <label for="room"><input type="radio" name="fav_language" id="room" value="ROOM">Room</label>
+          </td>
+        </tr>
+      </table>
+      </form>
+    </section>
+
+    <section class="schedule">
+      <div class="list-sched">
+        <h3>Schedule Available:</h3>
+        <ul>
+          <li><input type="radio"><label for="time">09-03-22</label></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="tacbox">
+      <input id="checkbox" type="checkbox" />
+      <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+    </div>
+
+    <button>Book</button>
+    <button>Cancel</button>
+
+    <!-- js -->
+    <script src="components/backend/tour.script.js"></script>
   </body>
 </html>
