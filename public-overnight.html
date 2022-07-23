@@ -20,7 +20,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                  <li class="nav-item"><a class="nav-link" href="https://camzandofel.github.io/Camz-And-Ofel-Island_resort.github.io">Menu</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
                     </ul>
             </div>
         </div>
@@ -72,8 +72,8 @@
         <div class="row gx-4 justify-content-center">
             <div class="col-lg-8">
               <div class="components">
-                <h3 style="color: blue;">Daytour Plan</h1>
-                <p>8am - 5pm</p>
+                <h3 style="color: blue;">Overnight Plan</h1>
+                <p>7pm - 5am</p>
               </div>
 
               <!-- calculation column -->
@@ -92,7 +92,7 @@
                     <!-- kids -->
                         <tr>
                           <td><b>Kids&nbsp;&nbsp;&nbsp;</b></td>
-                        <td><input type="number" name="" id="a" value="110.00" disabled></td>
+                        <td><input type="number" name="" id="a" value="130.00" disabled></td>
                         <td><input type="number" id="b" value="0"></td>
                         <td><output name="x" for="a b" id="l"></output></td>
                       </tr>
@@ -104,7 +104,7 @@
                         <table>
                           <tr>
                             <td><b>Adult&nbsp;</b></td>
-                          <td><input type="number" name="" id="c" value="110.00" disabled></td>
+                          <td><input type="number" name="" id="c" value="150.00" disabled></td>
                           <td><input type="number" id="d" value="0"></td>
                           <td><output name="y" for="c d" id="m"></output></td>
                           </tr>
@@ -116,7 +116,7 @@
                         <table>
                           <tr>
                             <td><b>Senior</b></td>
-                          <td><input type="number" name="" id="e" value="110.00" disabled></td>
+                          <td><input type="number" name="" id="e" value="130.00" disabled></td>
                           <td><input type="number" id="f" value="0"></td>
                           <td><output name="z" for="e f" id="n"></output></td>
                         </tr>
@@ -231,25 +231,31 @@
               <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-    <button class="printing btn btn-info" onclick="window.print(); myFunction()">Print this</button>
+    <button class="printing btn btn-info" id="myImg" onclick="window.print(); myFunction()">Print this</button>
     </div>
     </div>
     </div>
-<section class="btn-for-pass">
-  <div class="container px-4">
-    <div class="row gx-4 justify-content-center">
-        <div class="col-lg-8">
-          <div class="blackout">
-            <p id="demo"></p>
-          </div>
+
+    <section class="btn-for-pass">
+        <div class="container px-4">
+          <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <div class="blackout">
+                  <p id="demo"></p>
+                </div>
+              </div>
+            </div>
         </div>
-      </div>
-  </div>
-</section>
-    
+      </section>
+
+      <!-- <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <p id="demo"></p>
+      </div> -->
 
 
     <!-- js -->
     <script src="components/backend/tour.script.js"></script>
+    <!-- <script src="components/backend/modal.js"></script> -->
   </body>
 </html>
