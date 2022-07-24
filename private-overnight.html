@@ -20,7 +20,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                  <li class="nav-item"><a class="nav-link" href="https://camzandofel.github.io/Camz-And-Ofel-Island_resort.github.io">Menu</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
                     </ul>
             </div>
         </div>
@@ -72,56 +72,38 @@
         <div class="row gx-4 justify-content-center">
             <div class="col-lg-8">
               <div class="components">
-                <h3 style="color: blue;">Daytour Plan</h1>
-                <p>8am - 5pm</p>
+                <h3 style="color: blue;">Overnight Plan</h1>
+                <p>7pm - 5am</p>
               </div>
 
               <!-- calculation column -->
-              <div class="calculation">
-
-                    
-                      <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">
-                      <table>
-                        <tr>
-                          <th>Person</th>
-                          <th>*PPP</th>
-                          <th>*no.</th> 
-                          <th class="price">Price</th>
-                        </tr>
-
-                    <!-- kids -->
-                        <tr>
-                          <td><b>Kids&nbsp;&nbsp;&nbsp;</b></td>
-                        <td><input type="number" name="" id="a" value="110.00" disabled></td>
-                        <td><input type="number" id="b" value="0"></td>
-                        <td><output name="x" for="a b" id="l"></output></td>
-                      </tr>
-                      </table>
-                      </form>
-        
-                    <!-- Adult -->
-                      <form oninput="y.value=parseInt(c.value)*parseInt(d.value)">
-                        <table>
-                          <tr>
-                            <td><b>Adult&nbsp;</b></td>
-                          <td><input type="number" name="" id="c" value="110.00" disabled></td>
-                          <td><input type="number" id="d" value="0"></td>
-                          <td><output name="y" for="c d" id="m"></output></td>
-                          </tr>
-                        </table>
-                      </form>
-        
-                    <!-- Senior -->
-                      <form oninput="z.value=parseInt(e.value)*parseInt(f.value)">
-                        <table>
-                          <tr>
-                            <td><b>Senior</b></td>
-                          <td><input type="number" name="" id="e" value="110.00" disabled></td>
-                          <td><input type="number" id="f" value="0"></td>
-                          <td><output name="z" for="e f" id="n"></output></td>
-                        </tr>
-                        </table>
-                      </form>
+              <div class="bundle">
+                <p><b>Bundle:</b></p>
+                <tbody>
+                    <tr>
+                        <td class="tbody">Private Pool</td>
+                        <br>
+                        <td class="tbody">Private Room
+                            <ul class="list">
+                                <li>6-8 Beds</li>
+                              <li>1  Confort room</li>
+                              <li>1  Tv set</li>
+                              <li>10 Blankets</li>
+                              <li>10 Pillows</li>
+                            </ul>
+                        </td>
+                        <div class="hide">
+                            <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        </div>
+                        
+                        <td class="tbody">30 pax bench</td>
+                    </tr>
+                </tbody>
+                <p class="pricing">&#8369;10,500<b></b></p>
                 </div>
               </div>
             </div>
@@ -139,10 +121,6 @@
               </div>
               <form class="customer-renting" action="/action_page.php">
                 <table class="renting">
-                <tr>
-                  <td><b>Pool: </b></td>
-                  <td id="pool">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Public Pool</td>
-                </tr>
                 <tr>
                   <td><b>Rent: </b></td>
                   <td>
@@ -231,25 +209,25 @@
               <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-    <button class="printing btn btn-info" onclick="window.print(); myFunction()">Print this</button>
+    <button class="printing btn btn-info" id="myImg" onclick="window.print(); myFunction()">Print this</button>
     </div>
     </div>
     </div>
-<section class="btn-for-pass">
-  <div class="container px-4">
-    <div class="row gx-4 justify-content-center">
-        <div class="col-lg-8">
-          <div class="blackout">
-            <p id="demo"></p>
-          </div>
-        </div>
-      </div>
-  </div>
-</section>
-    
 
+    <section class="btn-for-pass">
+        <div class="container px-4">
+          <div class="row gx-4 justify-content-center">
+              <div class="col-lg-8">
+                <div class="blackout">
+                  <p id="demo"></p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
 
     <!-- js -->
     <script src="components/backend/tour.script.js"></script>
+    <!-- <script src="components/backend/modal.js"></script> -->
   </body>
 </html>

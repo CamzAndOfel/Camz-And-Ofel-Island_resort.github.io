@@ -47,7 +47,16 @@ section{
   margin-top: 2rem;
   /* text-align: center; */
 }
-
+.bundle{
+  margin-left: 10rem;
+}
+.tbody{
+  float: left;
+}
+.list{
+  float: right;
+  margin-right: 20rem;
+}
 th{
   text-align: center;
 }
@@ -118,9 +127,7 @@ input[type="radio"]{
     height: 100vh;
     background: black;
     color: #ddd;
-  } 
-  
-
+  }
 
   .demo{
     text-align: center;
